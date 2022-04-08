@@ -1,0 +1,660 @@
+body{
+    margin: 0px;
+}
+/* -----------------------------------div 1 starts--------------------------------------------------------------------------- */
+.div1-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.9)),url("./images/image.jpg");
+    height:900px;
+    background-size: cover;
+}
+nav{
+    height:100px;
+    width:100%;
+    background-color:rgba(0,0,0,0.1);
+    position:absolute;
+}
+header{
+    position: fixed;
+    width:100%;
+    background-color: rgb(0,0,0,0.7);
+    z-index: 1;
+}
+ul{
+    margin-top:30px;
+    text-align: center;
+}
+h1,h2,h3{
+    font-family: "Raleway", sans-serif;
+}
+span{
+    color:#ffc451;
+
+
+}
+nav h2{
+    position: absolute;
+color:white;
+
+}
+nav h2{
+    bottom:15px;
+    font-size: 30px;;
+}
+nav li {
+    margin-left: 30px;
+    display: inline;
+    list-style-type: none;
+    color:white;
+    font-size: 25px;   
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+nav a:hover{
+    color:#ffc451;
+}
+nav button{
+    float:right;
+    padding:15px;
+    padding-left: 33px;
+    padding-right: 33px;
+    margin-right: 50px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-color: #ffc451 ;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 7px;
+    background-color: rgb(0,0,0,0.1);
+    color:white;
+    position: relative;
+    bottom:10px;
+}
+nav button:hover{
+    background-color:#ffc451 ;
+    color:black;
+    transition: 0.5s;
+}
+
+.dropdown{
+    font-size: 25px;   
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    color: white;
+    padding: 14px 16px; 
+    margin: 0; 
+    display:inline-block;
+  }
+.dropdown:hover{
+    color:#ffc451;
+}
+ 
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: rgb(0,0,0,0.5);
+    width: 150px;  
+}
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding:10px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  /* ----------------------------------------------------------------------------- */
+
+/* container starts */
+.container{
+  margin:150px 250px;
+}
+
+
+.content h1{
+    color:white;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 250px;  
+}
+.content h3{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    position:relative;
+    bottom:25px;
+}
+.row{
+    margin-top: 19px;
+    margin-left:250px;
+}
+.card{
+    text-align: center;
+    border-color:grey;
+    margin-left: 30px;
+    margin-top: 40px;
+ display:inline-block;
+ color: white;
+ border-style: solid;
+ border-width:1px;
+ padding: 20px 60px 70px 60px;
+ transition: 0.5s;
+ font-size: 21px;
+ font-family: "Raleway", sans-serif
+}
+
+.card:hover{
+    border-color:#ffc451;
+    transition: 0.5s;
+}
+
+.card a:hover{
+    color:#ffc451;
+    transition: 1s;
+}
+
+.icon-box{
+    text-align: center;
+    padding: 20px 30px;
+    color: #ffc451;
+}
+/* ----------------------------------------------div1 ends--------------------------------------------------------------- */
+
+
+/* ---------------------------------------------div2 starts------------------------------------------------------------------------- */
+.div-2-content{
+    height:40px;
+    margin-top: 70px;
+    margin-right: 500px;
+    margin-left: 100px;
+}
+.div-2-content1 h3,p,ul,h2{
+    color:rgb(94, 86, 86);
+}
+.div-2-content1
+{  
+    width:50%;
+    float: left;
+}
+.div-2-content1 h3 {
+    text-align: center;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+}
+
+.div-2-content1 h3,ul,p{
+    font-size: 23px;
+}
+
+.div-2-content ul li{
+    margin-bottom: 20px;
+    
+}
+.div-2-content1 img{
+height: 600px;
+width: 800px;
+margin-left: 200px;
+}
+
+/* ----------------------------------------------div2 ends--------------------------------------------------------------- */
+
+
+/* /* ----------------------------------------------div3 starts---------------------------------------------------------- */
+.div-3-content{
+    height:40px;
+    margin-top: 700px;
+}
+
+.div-3-content1{
+    width:40%;
+    float: left;
+}
+.div-3-content2 {
+  margin-left:900px;
+}
+.div-3-content1 img{
+    height: 600px;
+   width: 800px;
+   margin-left: 70px;
+  }
+.div-3-content2 li{
+list-style: none;
+}
+  .div-3-content2 h3,p{
+      text-align: left;
+  }
+  .div-3-content2 p{
+      margin-bottom: 60px;
+  }
+
+.div3-iconbox{
+    padding-right: 20px;
+    float:left;
+    font-size: 48px;
+    color: #ffc451;
+}
+    /* ----------------------------------------------div3 starts---------------------------------------------------------- */
+.div-4{
+    height:150px;
+   margin-top: 700px;
+   margin-left: 60px;;
+}
+.div-4 p{
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    color: #0e0c0c;
+    float:left;
+    font-weight: 700;
+}
+.div-4 h2{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.div-5{
+    height:300px;
+    margin-top: 40px;
+    margin-left:45px;
+}
+
+
+.div-5-column{
+    width:20%;
+   float: left;
+   border-color:rgb(212, 207, 207);
+   margin-left: 10px;
+   margin-bottom: 50px;
+display:inline-block;
+border-style: solid;
+border-width:0.5px;
+padding:80px;
+margin-left: 50px;
+height:250px;
+}
+
+.div-5-column:hover{
+    box-shadow:0px 0 25px 0 rgba(236, 231, 231, 0.8);
+    border-color: #fff;
+    position:relative;
+    bottom:20px;
+}
+.div-5-column h1,p{
+    text-align: center;
+}
+.div-5-column h1{
+font-weight: 700;
+}
+.div-5-iconbox i{
+  background-color: #ffc451;
+  padding:20px;
+  border-radius: 5px;
+}
+.div-5-iconbox{
+    text-align: center;
+}
+.div-6{
+    height:60px;
+    margin-top: 700px;
+    height:300px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url("./images/cta-bg.jpg");
+    background-attachment: fixed;
+}
+.div-6-content{
+    text-align: center;
+}
+
+.div-6-content h2{
+    padding: 25px;
+    font-size: 30px;
+    color:white;
+    font-family: "Raleway", sans-serif;
+}
+.div-6-content p{
+    color:white;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+}
+.div-6 button{
+    font-size:25px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: white;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+}
+.div-6 button:hover{
+    border:none;
+    background-color:#ffc451;
+    color: #0e0c0c;
+    transition: 0.5s;
+}
+.div-7{
+    height:150px;
+   margin-top: 100px;
+   margin-left: 60px;;
+}
+.div-7 p{
+    margin-top: -1px;
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    color: #0e0c0c;
+    float:left;
+    font-weight: 700;
+}
+.div-7 h2{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.div-8{
+    height:1600px;
+    margin-top: 40px;
+    margin-left: 110px;
+}
+
+
+.div-8-column1{
+    width:30%;
+display:inline;
+height:250px;
+margin-left: 20px;
+}
+
+.div-8-column:hover{
+    box-shadow:0px 0px 80px 10px;
+    transition: 2s;
+}
+.div-8-column h2,p{
+    text-align: center;
+}
+
+.div-9-content{
+    height:50px;
+}
+
+.div-9-content1{
+    width:40%;
+    float: left;
+}
+.div-9-content2 {
+  margin-left:900px;
+}
+.div-9-content1 img{
+    height: 600px;
+   width: 800px;
+   margin-left: 70px;
+  }
+  .div-9-content2 h3{
+    text-align: left;
+    margin-left:25px; 
+  }
+  .div-9-content2 h3,p{
+      text-align: left;
+      margin-left:25px;  
+      font-family: "Raleway", sans-serif;
+      font-size: 20px;
+  }
+  .div-9-column h1{
+font-size: 50px;
+  }
+.div-9-column{
+    float:left;
+    margin-left: 20px;
+    margin-right: 20px;;
+    width:40%;
+}
+.div-9-columnbox{
+    margin-left: 30px;
+    margin-top: -15px;
+
+}
+.div9-iconbox{
+    padding-right: 20px;
+    float:left;
+    font-size: 48px;
+    color: #ffc451;
+    padding-top: 40px;
+}
+.div-10{
+    margin-top: 700px;
+    height:500px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url("./images/image10.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    background-size: 100% 100%;
+}
+.div-10-content{
+    text-align: center;
+    padding-top:100px;
+}
+.div-10-content img{
+    height:115px;
+    border-radius:50%;
+}
+.div-10-content h2{
+    color:whitesmoke;
+    font-size: 30px;
+}
+.div-10-content h3{
+    color:rgb(211, 209, 209);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -15px;
+    font-size:19px;
+}
+.div-10-content p{
+    color:rgb(211, 209, 209);
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    text-align:center;
+    font-style: italic;
+}
+
+.div-11{
+    height:150px;
+   margin-top: 80px;
+   margin-left: 60px;;
+}
+.div-11 p{
+    margin-top: -1px;
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    color: #0e0c0c;
+    float:left;
+    font-weight: 700;
+}
+.div-11 h2{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+
+.div-12{
+    height:300px;
+    margin-left:45px;
+}
+.div-12{
+    height:550px
+}
+
+.div-12-column{
+    margin-left: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    float: left;
+    width:20%;
+}
+
+.div-12-social-media{
+    margin-left: 50px;
+    position: absolute;
+}
+
+.div-12-social-media a {
+    padding: 10px;
+    margin-left: 10px;;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    background-color: rgba(255, 251, 251, 0.973);
+    transition: ease-in-out 0.3s;
+    color: #484848;
+    font-size: 25px;
+    display: none;
+    position: relative;
+bottom:100px;
+}
+
+.div-12-column:hover .div-12-social-media a{
+  
+   display:inline-block;
+}
+
+.container{
+display: inline;
+}
+
+
+.div-13{
+    height:100px;
+   margin-top: 50px;
+   margin-left: 60px;;
+}
+.div-13 p{
+    margin-top: 20px;
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    color: #0e0c0c;
+    float:left;
+    font-weight: 700;
+}
+.div-13 h2{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+    
+}
+.div-14{
+    margin-left:100px;
+    margin-right:120px;
+}
+
+.div-15{
+    margin-left: 50px;
+    margin-top: 50px;
+    height:500px;
+}
+.div-15-column{
+    float:left;
+    margin-left: 50px;
+    text-align: center;
+}
+.div-15-column input[type=text], input[type=email], textarea {
+    width: 550px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left:50px;
+    margin-bottom:20px;
+    padding:20px;
+
+}
+.div-15-column button{
+    background-color: #ffc451 ;
+    padding:12px 25px 12px 25px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.div-15-column button a{
+text-decoration: none;
+}
+.div-15-iconbox{
+    padding-right: 20px;
+    float:left;
+    font-size: 30px;
+    background-color: #ffc451;
+    padding: 10px 20px 10px 20px;
+    border-radius:5px
+}
+.div-15-content{
+    padding-bottom: 10px;;
+}
+.div-16{
+    height:450px;
+    background-color:rgb(31, 28, 28);
+}
+.div-16-column{
+    
+    margin-top: 50px;;
+    margin-left: 200px;
+    float: left;
+width:12%;
+}
+.div-16-column{
+    font-size:30px;
+}
+.div-16-column li{
+    color:white;
+    padding-bottom: 20px;
+    font-size:20px;
+}
+/* .div-16-column2{
+    background-color: #ffc451;
+color:wheat;
+float:left
+} */
+.footer{
+    text-align: center;
+    color:white;
+    height:150px;
+    background-color: rgb(12, 12, 12);
+}
+.copyright{
+    padding-top:40px;
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+}
+.credits{
+    padding-top: 20px;;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
